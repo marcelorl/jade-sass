@@ -1,0 +1,21 @@
+{
+  "name": "jade-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "jade src -o dist -w",
+    "start": "nodemon --watch ./dist server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "jquery": "^3.0.0"
+  },
+  "devDependencies": {
+    "express": "^4.14.0",
+    "jade": "^1.11.0",
+    "nodemon": "^1.9.2"
+  }
+}
